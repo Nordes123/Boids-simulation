@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://b7itpxl25pt62"]
+
+[ext_resource type="Script" path="res://MAIN/main_scene.cs" id="1_xcagq"]
+
+[node name="MainScene" type="Node2D"]
+script = ExtResource("1_xcagq")
+boidCount = 30

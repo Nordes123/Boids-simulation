@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "vsTcc6ADIymLdX/A/ne5skhuvWfmw2WVtDV/73a+nimgw0l/SOJ/DkeaRPL5zIJkW6iMqNc46FNt3X9tYSy7jw==",
+  "success": true,
+  "projectFilePath": "/home/steen/code/Boid-simulation/Boid-simulation.csproj",
+  "expectedPackageFiles": [
+    "/home/steen/.nuget/packages/godot.sourcegenerators/4.2.2/godot.sourcegenerators.4.2.2.nupkg.sha512",
+    "/home/steen/.nuget/packages/godotsharp/4.2.2/godotsharp.4.2.2.nupkg.sha512",
+    "/home/steen/.nuget/packages/godotsharpeditor/4.2.2/godotsharpeditor.4.2.2.nupkg.sha512",
+    "/home/steen/.nuget/packages/microsoft.netcore.app.ref/6.0.27/microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "/home/steen/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.27/microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512"
+  ],
+  "logs": []
+}
