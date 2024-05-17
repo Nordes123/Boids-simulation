@@ -1,16 +1,25 @@
 using Godot;
 using System;
+using System.Threading;
 
 public partial class main_scene : Node2D
 {
+	//all public exported variables
 	[Export]
 	public int boidCount = 50;
+
+	[Export]
+	public bool update = true;
+
+	//all public non exported variables
 	
-	Node2D[] boids;
-	// Called when the node enters the scene tree for the first time.
+
+	// all private variables
+	private Node2D[] boids;
 
 	public override void _Ready()
 	{
+		
 		boids = new Node2D[boidCount];
 		for (int i = 0; i < boidCount; i++)
 		{			
@@ -18,6 +27,8 @@ public partial class main_scene : Node2D
 			boids[i] = addBoid();
 			boids[i].Position = new Vector2(GD.Randf() * 1000, GD.Randf() * 1000);
 		}
+		new Thread(checkVariableUpdate).Start();
+		
 	}
 	public Node2D addBoid()
 	{
@@ -75,7 +86,17 @@ public partial class main_scene : Node2D
 	// Called every frame. 'delta' is the elapsed time since the previous frame.
 	public override void _Process(double delta)
 	{
-		if (boidCount != boids.Length)updateBoidCount();
-
+	}
+	public void checkVariableUpdate()
+	{
+		while(true)
+		{
+			if (update)
+			{
+				GD.Print("Checking for variable update");
+				if (boidCount != boids.Length)updateBoidCount();
+			}
+			Thread.Sleep(1000);
+		}
 	}
 }
