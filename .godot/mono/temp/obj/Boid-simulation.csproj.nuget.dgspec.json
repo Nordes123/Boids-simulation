@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/steen/Code/Boids-simulation/Boid-simulation.csproj": {}
+    "/home/steen/code/Boid-simulation/Boid-simulation.csproj": {}
   },
   "projects": {
-    "/home/steen/Code/Boids-simulation/Boid-simulation.csproj": {
+    "/home/steen/code/Boid-simulation/Boid-simulation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/steen/Code/Boids-simulation/Boid-simulation.csproj",
+        "projectUniqueName": "/home/steen/code/Boid-simulation/Boid-simulation.csproj",
         "projectName": "Boid-simulation",
-        "projectPath": "/home/steen/Code/Boids-simulation/Boid-simulation.csproj",
+        "projectPath": "/home/steen/code/Boid-simulation/Boid-simulation.csproj",
         "packagesPath": "/home/steen/.nuget/packages/",
-        "outputPath": "/home/steen/Code/Boids-simulation/.godot/mono/temp/obj/",
+        "outputPath": "/home/steen/code/Boid-simulation/.godot/mono/temp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/steen/.nuget/NuGet/NuGet.Config"
@@ -40,15 +40,15 @@
           "dependencies": {
             "Godot.SourceGenerators": {
               "target": "Package",
-              "version": "[4.2.1, )"
+              "version": "[4.2.2, )"
             },
             "GodotSharp": {
               "target": "Package",
-              "version": "[4.2.1, )"
+              "version": "[4.2.2, )"
             },
             "GodotSharpEditor": {
               "target": "Package",
-              "version": "[4.2.1, )"
+              "version": "[4.2.2, )"
             }
           },
           "imports": [
@@ -65,11 +65,11 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.29, 6.0.29]"
+              "version": "[6.0.27, 6.0.27]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.29, 6.0.29]"
+              "version": "[6.0.27, 6.0.27]"
             }
           ],
           "frameworkReferences": {
@@ -77,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.104/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.102/RuntimeIdentifierGraph.json"
         }
       }
     }

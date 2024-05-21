@@ -4,4 +4,5 @@
 
 [node name="MainScene" type="Node2D"]
 script = ExtResource("1_xcagq")
-boidCount = 1000
+boidCount = 200
+continuesWalls = true

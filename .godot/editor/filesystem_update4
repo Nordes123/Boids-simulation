@@ -1,3 +1,2 @@
 res://MAIN/main_scene.tscn
-res://boid/boid.tscn
-res://MAIN/main_scene.cs
+res://boid/Boid.tscn

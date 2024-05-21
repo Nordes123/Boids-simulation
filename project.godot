@@ -11,8 +11,13 @@ config_version=5
 [application]
 
 config/name="Boid-simulation"
+run/main_scene="res://boid/Boid.tscn"
 config/features=PackedStringArray("4.2", "C#", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/stretch/mode="canvas_items"
 
 [dotnet]
 
